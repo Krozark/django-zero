@@ -1,6 +1,27 @@
-
+### django
 Django==1.6
 
+### debug
 django-debug-toolbar
+
+# create account https://www.getsentry.com/register/
+#raven
+
+### helper
 django-extensions
+django-admin-tools
+
+### registration
 django-registration
+
+### translation
+#https://github.com/mbi/django-rosetta
+django-rosetta
+
+### taggs
+#https://github.com/alex/django-taggit
+#django-taggit
+
+### search
+#http://haystacksearch.org/
+#django-haystack

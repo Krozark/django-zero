@@ -47,11 +47,11 @@ DATABASES = {
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'i_zxx4*b(^v@-n$880it-gm$hi90x$o!q60^x^tf=)t6gbmap_'
 
-LANGUAGE_CODE = 'fr'
+LANGUAGE_CODE = 'en'
 gettext = lambda s:s
 LANGUAGES = (
-        ('fr',gettext(u'Français')),
         ('en',gettext(u'English')),
+        ('fr',gettext(u'Français')),
 )
 
 # Internationalization
@@ -128,13 +128,24 @@ INSTALLED_APPS = (
 
     'django.contrib.humanize',
 
+    'rosetta',
+
     'debug_toolbar',
+    #'raven.contrib.django.raven_compat',
     'django_extensions',
     'registration',
+
+    #'taggit',
 
     'website',
 )
 ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, use a different value
+
+#RAVEN_CONFIG = {
+    #your api key
+    #create account https://www.getsentry.com/register/
+    #'dsn': 'https://530251f72c084179872589d80ba05e71:630e4c96dd694cb48a4385f66dc2be06@app.getsentry.com/27531',
+#}
 
 ROOT_URLCONF = 'zero.urls'
 
