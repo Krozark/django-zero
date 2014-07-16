@@ -26,6 +26,8 @@ TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
+SITE_ID = 1
+
 ADMINS = (
         ('maxime BARBIER', 'maxime.barbier1991@gmail.com'),
 )
@@ -118,6 +120,7 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
 
     #'django.contrib.comments',
     #'django.contrib.messages',
@@ -126,9 +129,12 @@ INSTALLED_APPS = (
     'django.contrib.humanize',
 
     'debug_toolbar',
+    'django_extensions',
+    'registration',
 
     'website',
 )
+ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, use a different value
 
 ROOT_URLCONF = 'zero.urls'
 

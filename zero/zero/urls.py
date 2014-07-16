@@ -7,6 +7,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'zero.views.home', name='home'),
     url(r'^', include('website.urls')),
+    url(r'^accounts/', include('registration.backends.default.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
 if settings.DEV:
