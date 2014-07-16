@@ -1,0 +1,117 @@
+/*
+SCSS3 (c) 2013 Maxime Barbier
+Inspired by http://css3please.com/
+*/
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0; }
+  .clearfix:after {
+    clear: both; }
+
+.reset-box {
+  margin: 0;
+  padding: 0; }
+
+.right, .pagination .next {
+  float: right; }
+
+.left, .pagination .prev {
+  float: left; }
+
+.link {
+  cursor: pointer; }
+
+.pagination {
+  background-repeat: repeat;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center; }
+
+a.file div.icon {
+  padding: 6px 6px 10px 22px;
+  background: url(/static/website/img/docicons/unknown.png) no-repeat 0 7px transparent; }
+a.file div.icon.aed {
+  background-image: url(/static/website/img/docicons/aed.png); }
+a.file div.icon.ai {
+  background-image: url(/static/website/img/docicons/ai.png); }
+a.file div.icon.aiff {
+  background-image: url(/static/website/img/docicons/aiff.png); }
+a.file div.icon.asp {
+  background-image: url(/static/website/img/docicons/asp.png); }
+a.file div.icon.avi {
+  background-image: url(/static/website/img/docicons/avi.png); }
+a.file div.icon.flv {
+  background-image: url(/static/website/img/docicons/flv.png); }
+a.file div.icon.html {
+  background-image: url(/static/website/img/docicons/html.png); }
+a.file div.icon.indd {
+  background-image: url(/static/website/img/docicons/indd.png); }
+a.file div.icon.js {
+  background-image: url(/static/website/img/docicons/js.png); }
+a.file div.icon.mpeg {
+  background-image: url(/static/website/img/docicons/mpeg.png); }
+a.file div.icon.pdf {
+  background-image: url(/static/website/img/docicons/pdf.png); }
+a.file div.icon.php {
+  background-image: url(/static/website/img/docicons/php.png); }
+a.file div.icon.png {
+  background-image: url(/static/website/img/docicons/png.png); }
+a.file div.icon.ppj {
+  background-image: url(/static/website/img/docicons/ppj.png); }
+a.file div.icon.psd {
+  background-image: url(/static/website/img/docicons/psd.png); }
+a.file div.icon.svg {
+  background-image: url(/static/website/img/docicons/svg.png); }
+a.file div.icon.swf {
+  background-image: url(/static/website/img/docicons/swf.png); }
+a.file div.icon.txt {
+  background-image: url(/static/website/img/docicons/txt.png); }
+a.file div.icon.wav {
+  background-image: url(/static/website/img/docicons/wav.png); }
+a.file div.icon.mp3 {
+  background-image: url(/static/website/img/docicons/mp3.png); }
+a.file div.icon.wma {
+  background-image: url(/static/website/img/docicons/wma.png); }
+a.file div.icon.wmv {
+  background-image: url(/static/website/img/docicons/wmv.png); }
+a.file div.icon.xml {
+  background-image: url(/static/website/img/docicons/xml.png); }
+a.file div.icon.doc {
+  background-image: url(/static/website/img/docicons/doc.png); }
+a.file div.icon.docx {
+  background-image: url(/static/website/img/docicons/docx.png); }
+a.file div.icon.xls {
+  background-image: url(/static/website/img/docicons/xls.png); }
+a.file div.icon.png {
+  background-image: url(/static/website/img/docicons/png.png); }
+a.file div.icon.jpg {
+  background-image: url(/static/website/img/docicons/jpg.png); }
+a.file div.icon.jpeg {
+  background-image: url(/static/website/img/docicons/jpeg.png); }
+a.file div.icon.bmp {
+  background-image: url(/static/website/img/docicons/bmp.png); }
+a.file div.icon.xbmp {
+  background-image: url(/static/website/img/docicons/xbmp.png); }
+a.file div.icon.gif {
+  background-image: url(/static/website/img/docicons/gif.png); }
+a.file div.icon.zip {
+  background-image: url(/static/website/img/docicons/zip.png); }
+a.file div.icon.sit {
+  background-image: url(/static/website/img/docicons/sit.png); }
+a.file div.icon.rar {
+  background-image: url(/static/website/img/docicons/rar.png); }
+a.file div.icon.tar {
+  background-image: url(/static/website/img/docicons/tar.png); }
+a.file div.icon.gz {
+  background-image: url(/static/website/img/docicons/gz.png); }
+a.file div.icon.user {
+  background-image: url(/static/website/img/docicons/user.png); }

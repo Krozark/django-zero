@@ -1,0 +1,82 @@
+@import "css3.scss";
+
+//$font-family: 'Ropa Sans', sans-serif;
+$font-family: sans-serif;
+
+.right { float:right; }
+.left  { float:left; }
+.link  {cursor : pointer;}
+
+
+.pagination {
+    //@extend .shadow;
+    //@include border-radius(6px);
+    //border: 2px solid $base_color * 0.5;
+    //background-image : url('../img/darken.png');
+    background-repeat : repeat;
+    padding : 5px 10px;
+    margin-bottom : 10px;
+    margin-top : 10px;
+    text-align : center;
+
+    .active {
+    }
+
+    .next {
+        @extend .right;
+    }
+
+    .prev {
+        @extend .left;
+    }
+
+}
+
+
+a.file {
+    div.icon {
+        padding: 6px 6px 10px 22px;
+        background: url(/static/website/img/docicons/unknown.png) no-repeat 0 7px transparent;
+
+        span { //filename
+        }
+    }
+    div.icon.aed  { background-image: url(/static/website/img/docicons/aed.png); }
+    div.icon.ai   { background-image: url(/static/website/img/docicons/ai.png); }
+    div.icon.aiff { background-image: url(/static/website/img/docicons/aiff.png); }
+    div.icon.asp  { background-image: url(/static/website/img/docicons/asp.png); }
+    div.icon.avi  { background-image: url(/static/website/img/docicons/avi.png); }
+    div.icon.flv  { background-image: url(/static/website/img/docicons/flv.png); }
+    div.icon.html { background-image: url(/static/website/img/docicons/html.png); }
+    div.icon.indd { background-image: url(/static/website/img/docicons/indd.png); }
+    div.icon.js   { background-image: url(/static/website/img/docicons/js.png); }
+    div.icon.mpeg { background-image: url(/static/website/img/docicons/mpeg.png); }
+    div.icon.pdf  { background-image: url(/static/website/img/docicons/pdf.png); }
+    div.icon.php  { background-image: url(/static/website/img/docicons/php.png); }
+    div.icon.png  { background-image: url(/static/website/img/docicons/png.png); }
+    div.icon.ppj  { background-image: url(/static/website/img/docicons/ppj.png); }
+    div.icon.psd  { background-image: url(/static/website/img/docicons/psd.png); }
+    div.icon.svg  { background-image: url(/static/website/img/docicons/svg.png); }
+    div.icon.swf  { background-image: url(/static/website/img/docicons/swf.png); }
+    div.icon.txt  { background-image: url(/static/website/img/docicons/txt.png); }
+    div.icon.wav  { background-image: url(/static/website/img/docicons/wav.png); }
+    div.icon.mp3  { background-image: url(/static/website/img/docicons/mp3.png); }
+    div.icon.wma  { background-image: url(/static/website/img/docicons/wma.png); }
+    div.icon.wmv  { background-image: url(/static/website/img/docicons/wmv.png); }
+    div.icon.xml  { background-image: url(/static/website/img/docicons/xml.png); }
+    div.icon.doc  { background-image: url(/static/website/img/docicons/doc.png); }
+    div.icon.docx { background-image: url(/static/website/img/docicons/docx.png); }
+    div.icon.xls  { background-image: url(/static/website/img/docicons/xls.png); }
+    div.icon.png  { background-image: url(/static/website/img/docicons/png.png); }
+    div.icon.jpg  { background-image: url(/static/website/img/docicons/jpg.png); }
+    div.icon.jpeg { background-image: url(/static/website/img/docicons/jpeg.png); }
+    div.icon.bmp  { background-image: url(/static/website/img/docicons/bmp.png); }
+    div.icon.xbmp { background-image: url(/static/website/img/docicons/xbmp.png); }
+    div.icon.gif  { background-image: url(/static/website/img/docicons/gif.png); }
+    div.icon.zip  { background-image: url(/static/website/img/docicons/zip.png); }
+    div.icon.sit  { background-image: url(/static/website/img/docicons/sit.png); }
+    div.icon.rar  { background-image: url(/static/website/img/docicons/rar.png); }
+    div.icon.tar  { background-image: url(/static/website/img/docicons/tar.png); }
+    div.icon.gz   { background-image: url(/static/website/img/docicons/gz.png); }
+    div.icon.user { background-image: url(/static/website/img/docicons/user.png); }
+}
