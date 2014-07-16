@@ -93,13 +93,13 @@ STATICFILES_FINDERS = (
 #    'django.template.loaders.eggs.Loader',
 #)
 
-#TEMPLATE_CONTEXT_PROCESSORS = (
-#    'django.contrib.auth.context_processors.auth',
-#    'django.core.context_processors.i18n',
-#    'django.core.context_processors.media',
-#    "django.core.context_processors.static", 
-#    'django.core.context_processors.request',
-#)
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    "django.core.context_processors.static", 
+    'django.core.context_processors.request',
+)
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -115,6 +115,10 @@ MIDDLEWARE_CLASSES = (
 # Application definition
 
 INSTALLED_APPS = (
+    #'admin_tools.theming',
+    #'admin_tools.menu',
+    #'admin_tools.dashboard',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

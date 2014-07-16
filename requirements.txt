@@ -9,7 +9,7 @@ django-debug-toolbar
 
 ### helper
 django-extensions
-django-admin-tools
+#django-admin-tools
 
 ### registration
 django-registration
